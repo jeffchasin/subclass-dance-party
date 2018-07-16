@@ -1,4 +1,7 @@
 ### node etc ###
+.gitignore
+.editorconfig
+.vs
 
 # Logs
 logs
