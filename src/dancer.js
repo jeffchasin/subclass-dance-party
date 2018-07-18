@@ -29,3 +29,10 @@ MakeDancer.prototype.setPosition = function(top, left) {
   };
   this.$node.css(styleSettings);
 };
+
+MakeDancer.prototype.lineUp = function() {
+  var halfway = $('body').height() / 2;
+  window.dancers.forEach(function(dancer) {
+    dancer.$node.css({top: halfway});
+  });
+};
