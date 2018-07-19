@@ -30,8 +30,10 @@ $(document).ready(function () {
     $('body').append(dancer.$node);
     window.dancers.push(dancer);
   });
+
   $('.lineUpButton').click(function (event) {
     MakeDancer.prototype.lineUp();
   });
+
 });
 
