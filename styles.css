@@ -39,6 +39,6 @@ body, a:link, a:visited, a:active{
 .photoCredit, .photoCredit a {
   color: #3a9fc0;
 }
-.kaleDancer {
+.kaleDancer, .pizzaDancer, .tacoDancer {
   position: absolute;
 }
