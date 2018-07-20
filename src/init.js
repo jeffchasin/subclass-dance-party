@@ -35,5 +35,9 @@ $(document).ready(function () {
     MakeDancer.prototype.lineUp();
   });
 
+  $('.foodFightButton').click(function (event) {
+    MakeDancer.prototype.foodFight();
+  });
+
 });
 

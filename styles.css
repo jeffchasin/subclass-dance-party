@@ -11,7 +11,7 @@ body{
 body, a:link, a:visited, a:active{
   color: lightblue;
 }
-.title, .addDancerButton, .lineUpButton, .photoCredit{
+.title, .addDancerButton, .lineUpButton, .photoCredit, .foodFightButton{
   padding:5px 12px;
   float:right;
 }
@@ -21,6 +21,7 @@ body, a:link, a:visited, a:active{
 }
 .title{
   background-color: #000;
+  color: #3a9fc0;
 }
 .dancer{
   border:10px solid red;
@@ -41,4 +42,7 @@ body, a:link, a:visited, a:active{
 }
 .kaleDancer, .pizzaDancer, .tacoDancer {
   position: absolute;
+}
+.belushiVideo {
+  margin: 40px 25% 20px 25%;
 }
