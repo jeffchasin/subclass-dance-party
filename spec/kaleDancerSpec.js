@@ -10,7 +10,7 @@ describe('kaleDancer', function() {
   });
 
   it('should be a picture of kale doing the twist', function() {
-    expect(kaleDancer.$node.children('img').attr('src')).to.equal('http://www.animated-gifs.eu/category_flora/vegetables/0004.gif');
+    expect(kaleDancer.$node.children('img').attr('src')).to.equal('img/kale.gif');
   });
 
 });
